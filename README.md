@@ -1,6 +1,6 @@
 #                                                           <h1>Test Tube Puzzle Game</h1>
 Welcome to the Test Tube Puzzle Game! This game involves moving colored liquids between test tubes with the goal of organizing the liquids such that each tube contains only one color.
-
+![Diagram](https://github.com/nageshkumar13/images/blob/main/games/sddefault.jpg)
 Table of Contents
 <a href="#introduction">Introduction</a>
 <a href="#how-to-play">How to Play</a>
