@@ -19,8 +19,8 @@ while done < 4:
     pour_index = get_valid_tube_number("Select the test-tube (1/2/3/4/5/6) you want to pour into: ") - 1
     pour = all_tubes[pour_index]
 
-    while pick == pour or len(pour) == 3 or (pour != [] and pick[-1] != pour[-1]):
-        if pick == pour:
+    while pick_index == pour_index or len(pour) == 3 or (pour != [] and pick[-1] != pour[-1]):
+        if pick_index == pour_index:
             print("You can't pour into the same test-tube.")
         if len(pour) == 3:
             print(f"Test-tube {pour_index + 1} is full.")
